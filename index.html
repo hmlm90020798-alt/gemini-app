@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier OS | Signature Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader" class="loader-overlay">
+    <div class="logo-anim">H<span>M</span></div>
+</div>
+
+<div id="app-root">
+    <nav class="side-nav">
+        <div class="nav-logo">ATELIER</div>
+        <div class="nav-links">
+            <button class="nav-item active" data-view="projects">Projetos</button>
+            <button class="nav-item" data-view="moodboard">Inspiração</button>
+            <button class="nav-item" data-view="finance">Estúdio</button>
+        </div>
+        <button class="nav-bottom">Definições</button>
+    </nav>
+
+    <main class="main-content">
+        <header class="main-header">
+            <div class="greeting">
+                <span class="date">Domingo, 5 de Abril</span>
+                <h1>Bem-vindo ao Atelier, Hélder.</h1>
+            </div>
+            <button class="btn-create">+ Iniciar Novo Conceito</button>
+        </header>
+
+        <section class="projects-section">
+            <div class="section-title">Projetos Ativos</div>
+            <div class="grid-luxury">
+                <div class="card-luxury">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400')"></div>
+                    <div class="card-info">
+                        <span class="tag">Cozinha Minimalista</span>
+                        <h3>Residência Quinta do Lago</h3>
+                        <div class="card-footer">
+                            <span class="status">Em Retificação</span>
+                            <span class="price">24.500 €</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Outros cards aqui -->
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="engine.js"></script>
+</body>
+</html>
